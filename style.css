@@ -1,0 +1,92 @@
+body {
+background-repeat:no-repeat;
+background-size: cover;
+background-image: url(https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+color: white;
+font-family:tahoma;
+padding: 10px
+}
+
+#container{
+    background-color: rgba(81, 36, 140,0.5);
+    max-width: 600px;
+    min-width:300px;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 2px 10px 0px 0px
+
+}
+
+
+h1,p {
+margin: 1em auto;
+text-align: center;
+}
+
+p {
+padding-bottom: 1rem;
+max-width:500px;
+}
+
+form {
+width: 70vw;
+max-width: 500px;
+min-width:300px;
+margin: 0 auto;
+padding-bottom:3em;
+}
+
+fieldset {
+border:none;
+}
+
+fieldset:first-of-type{
+border-top: 3px solid #351878;
+padding-top:2rem;
+}
+
+label {
+  display: block;
+  margin: 0.35rem 0
+}
+
+
+textarea,
+select,
+.name,
+.email,
+.age
+ {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input, textarea {
+background-color: #0e0729;
+border: 1px solid #0e0729;
+color: white;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 65%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.3rem;
+  background-color: #310382;
+  border-color: #53469c;
+  min-width: 300px;
+}
+
+#disclaimer {
+  font-size: 8;
+  text-align: center;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>League of Legends Survey</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body> 
+   <div id="container">
+    <h1 id="title">League of Legends Survey</h1>
+    <p id="description">We would appreciate it if you could take this survey to help us better understand the League of Legends player community</p>
+  
+  <form method="post"id="survey-form"
+ action='https://register-demo.freecodecamp.org'> 
+
+   <fieldset>
+     <label for="name" id="name-label">Enter Your Name: <input type="text" class="name" id="name" name="name" placeholder="Teemo Puffcap"required/></label>
+     <label for="email" id="email-label">Enter Your Email: <input type="email" class="email" id="email" name="email" placeholder="PoroKing@MushroomMail.com"required/></label>
+     <label for="age" id="number-label">Select Your Age (Years): <input type="number" class="age" id="number" name="age" min="1" max="150" placeholder="Age in Human Years"required/></label>
+   </fieldset>
+   
+   
+   <fieldset> 
+     <label for="routine">How often do you play League of Legends? <select id="dropdown">
+       <option value="">(select one)</option>
+       <option value="1">Every day</option>
+       <option value="2">More than 5x per week</option>
+       <option value="3">More than 3x per week</option>
+       <option value="4">2x per week</option>
+       <option value="5">Once a week</option>
+       <option value="6">Once every other week</option>
+       <option value="7">Once a month</option>
+       <option value="8">Rarely</option>
+       </select>
+       </label> 
+   </fieldset>
+
+   <fieldset>      
+        <label for="position">What is your    preferred position to play in League of Legends? 
+        </label>
+        <label for="top-lane"><input type="radio" value="top-lane" id="top-lane" name="position" class="inline"> Top Lane</label>
+        <label for="jungle"><input type="radio" value="jungle" id="jungle" name="position" class="inline"> Jungle</label>
+        <label for="mid-lane"><input type="radio" value="mid-lane" id="mid-lane" name="position" class="inline"> Mid Lane</label>
+        <label for="bot-lane"><input type="radio" value="bot-lane" id="bot-lane" name="position" class="inline"> Bot Lane (ADC)</label>
+        <label for="support"><input type="radio" value="support" id="support" name="position" class="inline"> Support</label>
+        <label for="fill"><input type="radio" value="fill" id="fill" name="position" class="inline"> No Preference</label>
+    </fieldset> 
+
+
+   <fieldset> 
+      <label for="teemo">Do you love or hate Teemo? <select id="dropdown">
+      <option value="">(select one)</option>
+      <option class="love" value="1">I LOVE TEEMO</option>
+      <option class="hate" value="2">I HATE TEEMO</option>
+      </select>
+      </label>
+   </fieldset>
+  
+   <fieldset>
+   <label for="enjoy">What do you enjoy most about playing League of Legends?</label>
+   <label for="CG"><input type="checkbox" value="CG" id="CG" name="enjoy" class="inline"> Challenging Gameplay</label>
+   <label for="friends"><input type="checkbox" value="friends" id="friends" name="enjoy" class="inline"> Playing with Friends</label>
+   <label for="diverse"><input type="checkbox" value="diverse" id="diverse" name="enjoy" class="inline"> Diverse Champion Roster</label>
+   <label for="free"><input type="checkbox" value="free" id="free" name="enjoy" class="inline"> Free to Play</label>
+   <label for="competitive"><input type="checkbox" value="competitive" id="competitive" name="enjoy" class="inline"> Competitive Environment</label>
+   <label for="esports"><input type="checkbox" value="esports" id="esports" name="enjoy" class="inline"> Esports Scene</label>
+   </fieldset>
+
+   <fieldset>
+      <label>If you could change anything about League of Legends what would it be and why?<textarea id="Qs" name="Qs" rows="4" cols="35" placeholder="I would want teemo to have 100% AP ratio mushrooms..."></textarea></label>
+      </fieldset> 
+<input type="submit" id="submit" value="Submit">
+<label id=disclaimer>This survey is not affiliated with Riot Games, Inc. All product and company names are trademarks™ or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them.</label>
+</div>
+</form>
+</body>
+</html>
