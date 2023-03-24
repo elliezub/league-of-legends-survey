@@ -43,22 +43,28 @@
    <fieldset>      
         <label for="position">What is your preferred position to play in League of Legends? 
         </label>
-        <label for="top-lane"><input type="radio" value="top-lane" id="top-lane" name="position" class="inline"> Top Lane</label>
-        <label for="jungle"><input type="radio" value="jungle" id="jungle" name="position" class="inline"> Jungle</label>
-        <label for="mid-lane"><input type="radio" value="mid-lane" id="mid-lane" name="position" class="inline"> Mid Lane</label>
-        <label for="bot-lane"><input type="radio" value="bot-lane" id="bot-lane" name="position" class="inline"> Bot Lane (ADC)</label>
-        <label for="support"><input type="radio" value="support" id="support" name="position" class="inline"> Support</label>
-        <label for="fill"><input type="radio" value="fill" id="fill" name="position" class="inline"> No Preference</label>
+        <label for="top-lane">
+          <input type="radio" value="top-lane" id="top-lane" name="position" class="inline"> Top Lane</label>
+        <label for="jungle">
+          <input type="radio" value="jungle" id="jungle" name="position" class="inline"> Jungle</label>
+        <label for="mid-lane">
+          <input type="radio" value="mid-lane" id="mid-lane" name="position" class="inline"> Mid Lane</label>
+        <label for="bot-lane">
+          <input type="radio" value="bot-lane" id="bot-lane" name="position" class="inline"> Bot Lane (ADC)</label>
+        <label for="support">
+          <input type="radio" value="support" id="support" name="position" class="inline"> Support</label>
+        <label for="fill">
+          <input type="radio" value="fill" id="fill" name="position" class="inline"> No Preference</label>
     </fieldset> 
-
-
+<!--updated but need to confirm-->
+    
    <fieldset> 
-      <label for="teemo">Do you love or hate Teemo? <select id="dropdown">
-      <option value="">(select one)</option>
-      <option class="love" value="1">I LOVE TEEMO</option>
-      <option class="hate" value="2">I HATE TEEMO</option>
-      </select>
-      </label>
+      <label for="teemodropdown">Do you love or hate Teemo?</label> 
+        <select id="teemodropdown">
+         <option disabled selected value>(select one)</option>
+         <option class="love" value="loveteemo">I LOVE TEEMO</option>
+         <option class="hate" value="hateteemo">I HATE TEEMO</option>
+        </select>
    </fieldset>
   
    <fieldset>
@@ -72,7 +78,7 @@
    </fieldset>
 
    <fieldset>
-      <label>If you could change anything about League of Legends what would it be and why?<textarea id="Qs" name="Qs" rows="4" cols="35" placeholder="I would want teemo to have 100% AP ratio mushrooms..."></textarea></label>
+      <label for="Qs">If you could change anything about League of Legends what would it be and why?<textarea id="Qs" name="Qs" rows="4" cols="35" placeholder="I would want teemo to have 100% AP ratio mushrooms..."></textarea></label>
       </fieldset> 
 <input type="submit" id="submit" value="Submit">
 <label id="disclaimer">This survey is not affiliated with Riot Games, Inc. All product and company names are trademarks™ or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them.</label>
